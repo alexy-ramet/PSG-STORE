@@ -1,0 +1,28 @@
+.banner {
+	background-image: url('../../image/maillot.png');
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.banner .container{
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner h1 {
+	color: black;
+	font-size: 50px;
+}
+
+
+.banner h2 {
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
